@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:fadingEdgeLength="0.0dip" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:paddingTop="30dp" >
+
+        <!-- includes common layout for SingIn and SingUp screen -->
+
+        <include layout="@layout/signin_signup_common" />
+
+        <TextView
+            android:id="@+id/confirm_password_label"
+            style="@style/label_text"
+            android:text="@string/signup_confirm_password_label" />
+
+        <EditText
+            android:id="@+id/confirm_password_edit"
+            style="@style/edit_text"
+            android:hint="@string/confirm_password_hint"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/signup_button"
+            style="@style/button_text"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/btn_bg_disabled"
+            android:clickable="false"
+            android:onClick="validateSignUp"
+            android:text="@string/signup_button_label" />
+        
+        <!-- includes facebook, googleplus, twitter and linkedin icons -->
+
+        <include layout="@layout/icons_bar" />
+    </LinearLayout>
+
+</ScrollView>

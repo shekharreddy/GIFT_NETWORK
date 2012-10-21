@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- TextView text style SignIn and SignUp screens -->
+    <style name="label_text">
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:textAppearance">@style/TextAppearance</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- Button text style - SignIn and SignUp screens -->
+    <style name="button_text">
+        <item name="android:textAppearance">@style/TextAppearance</item>
+        <item name="android:textColor">@color/green</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- EditText style - SignIn and SignUp screens -->
+    <style name="edit_text">
+        <item name="android:textAppearance">@style/TextAppearance</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/light_blue</item>
+        <item name="android:background">@drawable/edittext_bg</item>
+    </style>
+
+    <!-- Commom TextAppearnce -->
+    <style name="TextAppearance">
+        <item name="android:textSize">18sp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

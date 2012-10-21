@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.view.ViewPager xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pager"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"    
+    tools:context=".GIFTMainActivity" >
+
+    <!--
+    This title strip will display the currently visible social network page title, as well as the page
+    titles for adjacent socail network pages.
+    -->
+
+    <android.support.v4.view.PagerTitleStrip
+        android:id="@+id/pager_title_strip"
+        style="@style/button_text"
+        android:layout_gravity="top"
+        android:background="@color/blue"
+        android:padding="10dp" />
+
+</android.support.v4.view.ViewPager>

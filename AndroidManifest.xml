@@ -37,7 +37,8 @@
        
         
         <!-- MainActivity to show multiple social network fragments -->
-        <activity android:name=".GIFTMainActivity" />
+        <activity android:name=".GIFTMainActivity"
+            android:screenOrientation="portrait"/>
         
         <!-- About Activity that shows application details -->
         <activity
